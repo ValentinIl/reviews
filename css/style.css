@@ -1,47 +1,29 @@
 /*------base------*/
-main {
-  width: 500px;
-  background-color: #ccc;
-}
-main div {
-  border-bottom: 1px dotted #aaa;
+form {
+  font-size: 12px;
 }
 /*------layout------*/
-main {
-  width: 500px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #ccc;
-}
-main div {
+.reviews > div,
+.reviews .review-date {
   border-bottom: 1px dotted #aaa;
 }
-main .review-content {
+.reviews .review-content {
   margin: 20px;
 }
-main .open-review-form {
+.reviews .open-review-form {
   margin-top: 30px;
 }
-main .reviewForm label {
-  width: 33%;
+.reviews .review_form label {
+  width: 55%;
 }
-/*------module------*/
-#toTop {
-  text-decoration: none;
-  position: fixed;
-  bottom: 80px;
-  right: 30px;
-  overflow: hidden;
-  border: none;
-  color: #f48b6e;
-  width: 32px;
-  height: 32px;
-  font-size: 32px;
-  line-height: 38px;
-  -webkit-transition: color 0.5s ease;
-  transition: color 0.5s ease;
-}
-.for-ie {
+.reviews .simple-review-form {
   display: none;
 }
+.reviews .rate {
+  margin: 20px;
+}
+.reviews .reguiered-field {
+  color: #f00;
+}
+/*------module------*/
 /*------state------*/

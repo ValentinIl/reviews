@@ -1,23 +1,12 @@
 /*------base------*/
 
-main {
-  width: 500px;
-  background-color: #ccc;
-
-  div {
-    border-bottom: 1px dotted #aaa;
-  }
+form {
+  font-size: 12px;
 }
-
 /*------layout------*/
 
-main {
-  width: 500px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #ccc;
-
-  div {
+.reviews {
+  >div, .review-date {
     border-bottom: 1px dotted #aaa;
   }
 
@@ -29,33 +18,24 @@ main {
     margin-top: 30px;
   }
 
-  .reviewForm {
+  .review_form {
     label {
-      width: 33%;
+      width: 55%;
     }
+  }
+
+  .simple-review-form{
+    display: none;
+  }
+
+  .rate {
+    margin: 20px;
+  }
+
+  .reguiered-field {
+    color: #f00;
   }
 }
 
 /*------module------*/
-
-#toTop {
-    text-decoration: none;
-    position: fixed;
-    bottom: 80px;
-    right: 30px;
-    overflow: hidden;
-    border: none;
-    color: #f48b6e;
-    width: 32px;
-    height: 32px;
-    font-size: 32px;
-    line-height: 38px;
-    -webkit-transition: color 0.5s ease;
-    transition: color 0.5s ease;
-}
-
-.for-ie{
-	display: none;
-}
-
 /*------state------*/
